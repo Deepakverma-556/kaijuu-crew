@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Story from './components/Story'
 
 const App = () => {
   return (
       <div>
-          <Navbar/>
+          <Navbar />
+          <Story />
     </div>
   )
 }
-
-export default App
