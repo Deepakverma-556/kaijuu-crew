@@ -6,6 +6,7 @@ import About from './components/About'
 import Traits from './components/Traits'
 import Team from './components/Team'
 import Classes from './components/Classes'
+import Roadmap from './components/Roadmap'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Classes/>
       <Story />
       <Traits />
+      <Roadmap/>
       <Team/>
     </div>
 
