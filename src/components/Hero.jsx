@@ -19,6 +19,7 @@ const Hero = () => {
               </p>
               <p className='font-oswald font-bold text-5xl text-white leading-[72px]'>10:20:15:10</p>
               <p className='text-white font-oswald text-lg leading-7 text-opacity-60'>Days left</p>
+              <div></div>
             </div>
           </div>
         </div>
