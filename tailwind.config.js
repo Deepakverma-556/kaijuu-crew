@@ -22,7 +22,8 @@ module.exports = {
       },
       backgroundImage: {
         'hero-bg': "url('./assets/images/webp/hero-bg.webp')",
-        'traits-bg':"url('./assets/images/webp/traits-bg.webp')"
+        'traits-bg': "url('./assets/images/webp/traits-bg.webp')",
+        'crew-bg': "url('./assets/images/webp/crew-class-bg-image.webp')",
       }
     },
   },

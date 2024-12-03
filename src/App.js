@@ -5,6 +5,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Traits from './components/Traits'
 import Team from './components/Team'
+import Classes from './components/Classes'
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
 
       <Navbar />
       <Hero />
-      <About/>
+      <About />
+      <Classes/>
       <Story />
       <Traits />
       <Team/>
