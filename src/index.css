@@ -22,3 +22,19 @@
         transform: translateX(-50%);
     }
 }
+
+body{
+    background-color: #001120;
+}
+
+.gradient-color{
+    background: linear-gradient(180deg, #001120 0%, rgba(0, 17, 32, 0) 100%);
+}
+.grident-border{
+     border: 1px solid;
+     border-image-source: linear-gradient(141.11deg, rgba(255, 255, 255, 0.25) -1.59%, rgba(255, 255, 255, 0.09) 102.57%);
+}
+.gradient-bg{
+   background: linear-gradient(140.75deg, rgba(255, 255, 255, 0.16) -1.72%, rgba(255, 255, 255, 0.05) 101.44%);
+}
+

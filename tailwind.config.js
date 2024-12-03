@@ -21,7 +21,8 @@ module.exports = {
         'md':'770px',
       },
       backgroundImage: {
-        'hero-bg':"url('./assets/images/webp/hero-bg.webp')"
+        'hero-bg': "url('./assets/images/webp/hero-bg.webp')",
+        'traits-bg':"url('./assets/images/webp/traits-bg.webp')"
       }
     },
   },
