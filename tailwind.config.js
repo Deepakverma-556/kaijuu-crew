@@ -15,7 +15,11 @@ module.exports = {
         'smoky-black': '#141313',
         'dark-red': '#ff002a',
         'dark-gray':'9ab2c0',
-      }
+      },
+      screens: {
+        'lg': '1025px',
+        'md':'770px',
+      },
     },
   },
   plugins: [],
