@@ -17,6 +17,7 @@ module.exports = {
         'dark-gray':'9ab2c0',
       },
       screens: {
+        'xl':'1300px',
         'lg': '1025px',
         'md':'770px',
       },
@@ -24,6 +25,7 @@ module.exports = {
         'hero-bg': "url('./assets/images/webp/hero-bg.webp')",
         'traits-bg': "url('./assets/images/webp/traits-bg.webp')",
         'crew-bg': "url('./assets/images/webp/crew-class-bg-image.webp')",
+        
       }
     },
   },
