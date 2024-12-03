@@ -20,6 +20,9 @@ module.exports = {
         'lg': '1025px',
         'md':'770px',
       },
+      backgroundImage: {
+        'hero-bg':"url('./assets/images/webp/hero-bg.webp')"
+      }
     },
   },
   plugins: [],
