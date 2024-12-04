@@ -9,7 +9,7 @@ import Pentagon from '../assets/images/webp/roadmap-pentagon.webp'
 
 const Roadmap = () => {
   return (
-    <div className='py-[89px]'>
+    <div id='roadmap' className='py-[89px]'>
       <div className='max-w-[1320px] px-4 mx-auto'>
         <h2 className='text-[72px] font-godzilla text-dark-red leading-[62.4px] max-lg:text-[48px] max-lg:leading-4 max-md:text-3xl max-md:leading-none text-center pb-[95px]'>ROADMAP</h2>
         <div className='relative w-full h-[660px] max-xl:hidden'>

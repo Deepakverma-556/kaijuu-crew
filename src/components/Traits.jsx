@@ -3,7 +3,7 @@ import TraitsImage from '../assets/images/webp/Traits.webp'
 
 const Traits = () => {
   return (
-    <div className='bg-no-repeat overflow-hidden bg-cover bg-center pb-[156px] max-lg:pb-16 max-sm:pb-10 bg-traits-bg'>
+    <div id='traits' className='bg-no-repeat overflow-hidden bg-cover bg-center pb-[156px] max-lg:pb-16 max-sm:pb-10 bg-traits-bg'>
       <div className='text-center pt-24 pb-10 max-lg:pt-16 max-sm:pt-10 max-lg:pb-5  gradient-color'>
         <h2 className='text-[72px] font-normal font-godzilla text-dark-red leading-[62.4px] max-lg:text-[48px] max-lg:leading-4 max-md:text-3xl max-md:leading-none'>Traits</h2>
       </div>
@@ -35,7 +35,7 @@ const Traits = () => {
                   <p className='font-oswald font-normal text-[22px] leading-[33px] text-white max-sm:text-base'>Total Kaijuu</p>
                 </div>
                 <div className='w-7/12'>
-                  <div className='flex items-center gap-3'> 
+                  <div className='flex items-center gap-3'>
                     <p className='leading-[72px] text-white font-oswald font-bold text-5xl max-lg:text-4xl max-md:text-3xl max-sm:text-2xl'>0.0555</p>
                     <svg width="20" height="32" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clipPath="url(#clip0_67_224)">
@@ -49,7 +49,7 @@ const Traits = () => {
                     </svg>
                   </div>
                   <p className='font-oswald font-normal text-[22px] leading-[33px] text-white max-sm:text-base'>Mint Cost</p>
-             
+
                 </div>
               </div>
             </div>

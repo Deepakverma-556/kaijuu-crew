@@ -7,6 +7,9 @@ import Traits from './components/Traits'
 import Team from './components/Team'
 import Classes from './components/Classes'
 import Roadmap from './components/Roadmap'
+import Faq from './components/Faqs'
+import BackToTop from './components/common/BackToTop'
+
 
 const App = () => {
   return (
@@ -20,6 +23,8 @@ const App = () => {
       <Traits />
       <Roadmap/>
       <Team/>
+      <Faq />
+      <BackToTop/>
     </div>
 
   )
