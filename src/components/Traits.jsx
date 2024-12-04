@@ -1,5 +1,5 @@
 import React from 'react'
-import BackgroundImage from '../assets/images/webp/traits-bg-image (1).webp'
+import BackgroundImage from '../assets/images/webp/traits-bg.webp'
 import TraitsImage from '../assets/images/webp/Traits.webp'
 
 const Traits = () => {
@@ -36,10 +36,10 @@ const Traits = () => {
                   <p className='font-oswald font-normal text-[22px] leading-[33px] text-white max-sm:text-base'>Total Kaijuu</p>
                 </div>
                 <div className='w-7/12'>
-                  <div className='flex items-center gap-3'> 
+                  <div className='flex items-center gap-3'>
                     <p className='leading-[72px] text-white font-oswald font-bold text-5xl max-lg:text-4xl max-md:text-3xl max-sm:text-2xl'>0.0555</p>
                     <svg width="20" height="32" viewBox="0 0 20 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g clip-path="url(#clip0_67_224)">
+                      <g clipPath="url(#clip0_67_224)">
                         <path d="M19.4937 16.3L10 22.1L0.5 16.3L10 0L19.4937 16.3ZM10 23.9625L0.5 18.1625L10 32L19.5 18.1625L10 23.9625Z" fill="white" />
                       </g>
                       <defs>
@@ -50,7 +50,7 @@ const Traits = () => {
                     </svg>
                   </div>
                   <p className='font-oswald font-normal text-[22px] leading-[33px] text-white max-sm:text-base'>Mint Cost</p>
-             
+
                 </div>
               </div>
             </div>

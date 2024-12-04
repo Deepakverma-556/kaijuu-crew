@@ -19,3 +19,24 @@ body{
 .gradient-bg{
    background: linear-gradient(140.75deg, rgba(255, 255, 255, 0.16) -1.72%, rgba(255, 255, 255, 0.05) 101.44%);
 }
+
+.rc-accordion-toggle.active .rc-accordion-icon{
+    transform: rotate(180deg);
+}
+
+.rc-accordion-title{
+    position: relative;
+    margin-bottom: 0;
+    transition: 0.3s;
+}
+
+.rc-collapse{
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.35s ease;
+}
+
+.faq-bg{
+    background: linear-gradient(140.75deg, rgba(255, 255, 255, 0.16) -1.72%, rgba(255, 255, 255, 0.05) 101.44%);
+}
