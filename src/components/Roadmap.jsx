@@ -63,65 +63,65 @@ const Roadmap = () => {
         </div>
         
         <div className='xl:hidden'>
-          <div className='flex items-center gap-9'>
+          <div className='flex items-center gap-9 max-sm:gap-6'>
             <div className='relative max-w-max'>
-              <img src={Pentagon} alt="pentagon" className='max-md:h-60' />
-              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%]'>Phase-1</p>
+              <img src={Pentagon} alt="pentagon" className='max-md:h-48 max-sm:h-32 max-sm:min-w-[115px]' />
+              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%] max-md:left-[21%] max-sm:top-[38%] max-sm:left-[25%] max-sm:text-xl'>Phase-1</p>
               <img src={TopLine} alt="topline" className='absolute left-[50.5%] -bottom-3 -z-10' />
             </div>
             <div>
-              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl'>
+              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl max-md:text-base max-sm:text-sm'>
                 <li>Ut eu ac sed duis nec amet.</li>
                 <li>Sed elementum a tortor eros.</li>
               </ul>
             </div>
           </div>
-          <div className='flex items-center gap-9'>
+          <div className='flex items-center gap-9 max-sm:gap-6'>
             <div className='relative max-w-max'>
-              <img src={Pentagon} alt="pentagon" />
-              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%]'>Phase-2</p>
+              <img src={Pentagon} alt="pentagon" className='max-md:h-48 max-sm:h-32 max-sm:min-w-[115px] ' />
+              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%] max-md:left-[21%] max-sm:top-[38%] max-sm:left-[25%] max-sm:text-xl'>Phase-2</p>
               <img src={TopLine} alt="topline" className='absolute left-[50.5%] -bottom-3 -z-10' />
             </div>
             <div>
-              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl'>
+              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl max-md:text-base max-sm:text-sm'>
                 <li>Sagittis tristique molestie eu pharetra.</li>
                 <li>Nibh convallis ornare fringilla diam proin volutpat aliquet nunc.</li>
               </ul>
             </div>
           </div>
-          <div className='flex items-center gap-9'>
+          <div className='flex items-center gap-9 max-sm:gap-6'>
             <div className='relative max-w-max'>
-              <img src={Pentagon} alt="pentagon" />
-              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%]'>Phase-3</p>
+              <img src={Pentagon} alt="pentagon" className='max-md:h-48 max-sm:h-32 max-sm:min-w-[115px]' />
+              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%] max-md:left-[21%] max-sm:top-[38%] max-sm:left-[25%] max-sm:text-xl'>Phase-3</p>
               <img src={TopLine} alt="topline" className='absolute left-[50.5%] -bottom-3 -z-10' />
             </div>
             <div>
-              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl'>
+              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl max-md:text-base max-sm:text-sm'>
                 <li>Adipiscing velit turpis pretium, tellus.</li>
                 <li>Ornare urna arcu, dolor vestibulum.</li>
               </ul>
             </div>
           </div>
-          <div className='flex items-center gap-9'>
+          <div className='flex items-center gap-9 max-sm:gap-6'>
             <div className='relative max-w-max'>
-              <img src={Pentagon} alt="pentagon" />
-              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%]'>Phase-4</p>
+              <img src={Pentagon} alt="pentagon" className='max-md:h-48 max-sm:h-32 max-sm:min-w-[115px]' />
+              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%] max-md:left-[21%] max-sm:top-[38%] max-sm:left-[25%] max-sm:text-xl'>Phase-4</p>
               <img src={TopLine} alt="topline" className='absolute left-[50.5%] -bottom-3 -z-10' />
             </div>
             <div>
-              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl'>
+              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl max-md:text-base max-sm:text-sm'>
                 <li>Eget imperdiet mauris interdum ut egestas lacinia lacus.</li>
                 <li>Non ipsum, cursus consectetur fringilla aliquam.</li>
               </ul>
             </div>
           </div>
-          <div className='flex items-center gap-9'>
+          <div className='flex items-center gap-9 max-sm:gap-6'>
             <div className='relative max-w-max'>
-              <img src={Pentagon} alt="pentagon" />
-              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%]'>Phase-5</p>
+              <img src={Pentagon} alt="pentagon" className='max-md:h-48 max-sm:h-32 max-sm:min-w-[115px]' />
+              <p className='font-oswald text-[40px] max-lg:text-4xl text-white absolute top-[40%] left-[25%] max-lg:left-[27%] max-md:left-[21%] max-sm:top-[38%] max-sm:left-[25%] max-sm:text-xl'>Phase-5</p>
             </div>
             <div>
-              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl'>
+              <ul className='list-disc text-white font-oswald text-[22px] max-lg:text-xl max-md:text-base max-sm:text-sm'>
                 <li>Elementum elementum sit mauris amet non.</li>
               </ul>
             </div>
